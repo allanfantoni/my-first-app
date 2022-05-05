@@ -1,8 +1,11 @@
 <label for="">Server Name</label>
 
-<input type="text" class="form-control" (input)="onUpdateServerName($event)">
+<!-- <input type="text" class="form-control" (input)="onUpdateServerName($event)"> -->
 
-<p>{{ serverName }}</p>
+<!-- two-way-databinding-->
+<input type="text" class="form-control" [(ngModel)]="serverName">
+
+<!-- <p>{{ serverName }}</p> -->
 
 <!-- property binding -->
 <button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">
@@ -12,6 +15,19 @@
 <!-- string interpolation -->
 <!-- <p>{{ allowNewServer }}</p> -->
 <p>{{ serverCreationStatus }}</p>
+
+<hr>
+
+<!-- username example -->
+<label for="">Username</label>
+
+<input type="text" class="form-control" [(ngModel)]="userName">
+
+<p>{{ userName }}</p>
+
+<button class="btn btn-primary" [disabled]="userName == ''" (click)="userName = ''">
+  Reset username
+</button>
 
 <app-server></app-server>
 <app-server></app-server>
