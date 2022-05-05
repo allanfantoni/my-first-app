@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installing Node.js
 
-Go to `https://nodejs.org/en/` and install the LTS version. In the installation options, install the npm package manager too.
+Go to [nodejs.org](https://nodejs.org/en/) and install the LTS version. In the installation options, install the npm package manager too.
 
 ## Installing Angular
 
