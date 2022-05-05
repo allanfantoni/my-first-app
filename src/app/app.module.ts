@@ -9,6 +9,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { ResetUsernameComponent } from './reset-username/reset-username.component';
+import { DisplayDetailsComponent } from './display-details/display-details.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ResetUsernameComponent } from './reset-username/reset-username.componen
     ServersComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    ResetUsernameComponent
+    ResetUsernameComponent,
+    DisplayDetailsComponent
   ],
   imports: [
     BrowserModule,
