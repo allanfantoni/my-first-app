@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
+## Installing Node.js
+
+Go to `https://nodejs.org/en/` and install the LTS version. In the installation options, install the npm package manager too.
+
+## Installing Angular
+
+Run `npm install @angular/cli` to install Angular CLI package in the folder app.
+
+## Restoring packages
+
+Run `npm install typescript` to install TypeScript. Run `npm install bootstrap@3` to install Bootstrap version 3.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
